@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+div{
+    display:flex;
+    align-items: flex-start;
+}
+.elementsDiv{
+    display: block;
+}
+.coinDiv{
+    margin:2%;
+}
+img{
+    width:20%;
+    height:20%;
+}
+h2{
+    font-size: 170%;
+}
+p{
+    font-size: 140%;
+}
+.etheriumImage, .dogecoinImage{
+    width: 11%;
+    height:11%;
+    margin-left:4.5%;
+    margin-right: 4.3%;
+}
+h1{
+    font-size: 250%;
+}
+.titleDiv{
+    text-align: center;
+}
+.dogecoinImage{
+    width: 12%;
+    height: 12%;
+    margin-left:4%;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1000px));
+    grid-gap:10px;
+    grid-auto-flow: dense;
+}

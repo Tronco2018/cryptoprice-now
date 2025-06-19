@@ -1,0 +1,1 @@
+GET https://api.coingecko.com/api/v3/simple/price?ids=bitcoinmonero&vs_currencies=eur
